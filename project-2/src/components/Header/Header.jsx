@@ -2,6 +2,7 @@ import React from 'react';
 import { BiSearch, BiCart } from "react-icons/bi";
 import { SlLocationPin } from "react-icons/sl";
 import './Header.css';
+import LowerHeader from './LowerHeader';
 
 const Header = () => {
   return (
@@ -62,8 +63,10 @@ const Header = () => {
         </a>
 
       </div>
+       <LowerHeader />
 
     </header>
+   
   )
 }
 
